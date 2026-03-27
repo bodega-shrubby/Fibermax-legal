@@ -1,0 +1,188 @@
+# Privacy Policy — Fiber Max
+
+**Effective date:** March 27, 2026  
+**Last updated:** March 27, 2026  
+**Contact:** https://bodega-shrubby.github.io/fibermax-legal/privacy
+---
+
+## 1. Overview
+
+Fiber Max ("we", "our", or "the app") is a dietary fiber tracking application designed to help you improve your gut health by gradually increasing your daily fiber intake. This Privacy Policy explains what data we collect, why we collect it, how it is stored and processed, and your rights regarding your data.
+
+Fiber Max is not a medical device and does not provide medical advice. All recommendations are for general wellness purposes only.
+
+---
+
+## 2. Data we collect
+
+### 2.1 Account information
+When you create an account, we collect:
+- Email address
+- Display name (first name or nickname you provide)
+- Authentication method (email/password, Apple Sign In, or Google Sign In)
+
+### 2.2 Health and biometric data
+During onboarding and ongoing use, we collect:
+- Age and biological sex
+- Height and weight
+- Daily fiber intake goals and targets
+- Dietary preferences and restrictions (e.g. vegan, keto, low-carb)
+- Digestive health conditions you choose to disclose (e.g. IBS, Crohn's disease, high cholesterol)
+- Activity level and stress levels
+- Food logs, including meal times, food items, serving sizes, and fiber content
+- Evening symptom check-ins (digestive comfort ratings and symptom tags)
+- Weekly wellbeing check-ins
+
+### 2.3 App usage data
+- Food search queries
+- Favorite foods you save
+- In-app streak and progress data
+- Notification preferences
+
+### 2.4 Device information
+- Device type and operating system version (for diagnostic purposes)
+- Push notification tokens (if you enable notifications)
+
+---
+
+## 3. How we use your data
+
+We use your data to:
+- Personalise your fiber target and weekly ramp-up plan
+- Generate AI-powered daily tips, food suggestions, and weekly insights (see Section 4 — AI processing)
+- Track your progress over time and surface trends in fiber intake and gut health
+- Send morning and evening reminders if you enable notifications
+- Maintain your subscription status and process purchases
+- Improve the accuracy and relevance of the app's recommendations
+
+---
+
+## 4. AI processing — OpenAI
+
+Fiber Max uses OpenAI's GPT-4o-mini language model to generate personalised recommendations, daily habit tips, and weekly AI insights (the "Flora" features).
+
+**What data is sent to OpenAI:**  
+To generate personalised outputs, the following data may be transmitted to OpenAI's API:
+- Your fiber intake goal and current ramp-up week
+- Your last 14 days of food logs (food names and fiber amounts)
+- Your digestive conditions and dietary restrictions
+- Your symptom check-in history
+- Your activity level and stress level
+
+**What OpenAI does with this data:**  
+OpenAI processes this data to generate a response and does not use it to train its models under the API usage terms. Data sent to OpenAI is subject to [OpenAI's Privacy Policy](https://openai.com/policies/privacy-policy).
+
+**Caching:**  
+AI-generated tips and suggestions are cached in our database for up to 24 hours (daily tips) or 7 days (weekly insights) to minimise unnecessary data transmission.
+
+---
+
+## 5. Data storage — Supabase
+
+Your data is stored in a PostgreSQL database hosted by Supabase. Supabase stores data in data centres located in ap-southeast-2
+
+Supabase is SOC 2 Type II compliant. Data in transit is encrypted using TLS. Data at rest is encrypted at the storage level.
+
+For more information, see [Supabase's Privacy Policy](https://supabase.com/privacy).
+
+---
+
+## 6. Subscriptions and payments — RevenueCat
+
+Fiber Max offers an optional premium subscription ($2.99/month or $14.99/year) processed through Apple's App Store. Subscription management is handled by RevenueCat.
+
+We do not receive or store your payment card details. Apple processes all payment transactions directly.
+
+RevenueCat may collect:
+- Your app user ID (anonymised)
+- Subscription status, purchase dates, and renewal events
+- Device platform
+
+For more information, see [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy).
+
+---
+
+## 7. Food data sources
+
+When you search for foods, Fiber Max queries:
+- **USDA FoodData Central** — a public database maintained by the US Department of Agriculture. No personal data is transmitted.
+- **Open Food Facts** — an open-source food database. No personal data is transmitted.
+- **Edamam** — a food and nutrition API. No personal data is transmitted.
+
+Food search queries are processed on our server but are not stored or linked to your account.
+
+---
+
+## 8. Apple Health (optional)
+
+If you choose to connect Fiber Max to Apple Health, we may read nutrition data from and/or write fiber intake data to your Apple Health profile. This integration is optional and can be revoked at any time in your device's Health app settings.
+
+Apple Health data is processed on your device and is not transmitted to our servers unless you have explicitly logged it within Fiber Max.
+
+---
+
+## 9. Data sharing
+
+We do not sell your personal data. We do not share your personal data with third parties for advertising purposes.
+
+Data is shared only with:
+- **Supabase** — database and authentication provider (see Section 5)
+- **OpenAI** — for AI feature processing (see Section 4)
+- **RevenueCat** — for subscription management (see Section 6)
+- **Apple** — for App Store payments and optionally Apple Health integration
+- **USDA / Open Food Facts / Edamam** — for food search queries (non-personal)
+
+We may disclose your data if required to do so by law or in response to a valid legal request.
+
+---
+
+## 10. Data retention
+
+| Data type | Retention period |
+|-----------|-----------------|
+| Account and profile data | Until account deletion |
+| Food logs | Until account deletion or manual deletion |
+| Symptom and check-in logs | Until account deletion |
+| AI-generated tips (cached) | 24 hours (daily) / 7 days (weekly) |
+| Anonymised usage analytics | Up to 24 months |
+
+You can delete all your data at any time from Settings > Account > Delete all data. You can delete your account from Settings > Account > Delete account. Both actions are permanent and irreversible.
+
+---
+
+## 11. Your rights
+
+Depending on your location, you may have the right to:
+- Access the personal data we hold about you
+- Correct inaccurate personal data
+- Request deletion of your personal data
+- Request a copy of your data in a portable format
+- Withdraw consent for data processing where consent is the legal basis
+
+To exercise any of these rights, contact us at https://bodega-shrubby.github.io/fibermax-legal We will respond within 30 days.
+
+---
+
+## 12. Children's privacy
+
+Fiber Max is not directed at children under the age of 13. We do not knowingly collect personal data from children under 13. If we become aware that we have collected personal data from a child under 13 without parental consent, we will delete that data promptly.
+
+---
+
+## 13. Changes to this policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. For significant changes, we will notify you within the app. Continued use of Fiber Max after changes are posted constitutes acceptance of the updated policy.
+
+---
+
+## 14. Contact
+
+If you have any questions about this Privacy Policy or how your data is handled, please contact:
+
+**Email:** https://bodega-shrubby.github.io/fibermax-legal/privacy
+**App:** Fiber Max  
+**Developer:** Burst Technologies
+
+---
+
+*Fiber Max is not a medical device. The information and recommendations provided by Fiber Max are for general wellness purposes only and do not constitute medical advice. Always consult a qualified healthcare professional before making significant changes to your diet, especially if you have a diagnosed medical condition.*
